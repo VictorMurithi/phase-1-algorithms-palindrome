@@ -2,9 +2,9 @@ function isPalindrome(word) {
   const lowerCaseWord = word.toLowerCase();
   const reversedWord = lowerCaseWord.split('').reverse().join('')
   if(lowerCaseWord === reversedWord){
-    return 'true'
+    return true;
   }else{
-    return 'false'
+    return false;
   }
 }
 
